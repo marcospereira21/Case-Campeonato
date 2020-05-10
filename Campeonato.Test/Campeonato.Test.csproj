@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.3" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Campeonato.Api\Campeonato.Api.csproj" />
+    <ProjectReference Include="..\Campeonato.Data\Campeonato.Data.csproj" />
+    <ProjectReference Include="..\Campeonato.Model\Campeonato.Model.csproj" />
+    <ProjectReference Include="..\Campeonato.Resourses\Campeonato.Resourses.csproj" />
+    <ProjectReference Include="..\Campeonato.Service\Campeonato.Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resourses\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="JsonCaseCampeonato.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Resourses\JsonCaseCampeonato.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

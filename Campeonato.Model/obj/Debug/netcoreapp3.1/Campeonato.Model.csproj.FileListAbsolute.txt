@@ -1,0 +1,9 @@
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\bin\Debug\netcoreapp3.1\Campeonato.Model.deps.json
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\bin\Debug\netcoreapp3.1\Campeonato.Model.dll
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\bin\Debug\netcoreapp3.1\Campeonato.Model.pdb
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\obj\Debug\netcoreapp3.1\Campeonato.Model.csprojAssemblyReference.cache
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\obj\Debug\netcoreapp3.1\Campeonato.Model.csproj.CoreCompileInputs.cache
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\obj\Debug\netcoreapp3.1\Campeonato.Model.AssemblyInfoInputs.cache
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\obj\Debug\netcoreapp3.1\Campeonato.Model.AssemblyInfo.cs
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\obj\Debug\netcoreapp3.1\Campeonato.Model.dll
+C:\Dev\CaseCampeonatoBrasileiro\Campeonato.Model\obj\Debug\netcoreapp3.1\Campeonato.Model.pdb
