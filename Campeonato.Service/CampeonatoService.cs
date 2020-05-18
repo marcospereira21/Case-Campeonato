@@ -29,6 +29,7 @@ namespace Campeonato.Service
             {
                 var result = _data.Pontuacoes.Include(x => x.Clube).Include(c => c.Campeonato)
                         .GroupBy(x => new { x.Clube.Id, x.Clube.Nome })
+                        
                         .Select(x => new PorTimeModel
                         {
                             Posicao = x.Min(s => s.Posicao),
@@ -42,7 +43,7 @@ namespace Campeonato.Service
                             GolsPro = x.Sum(s => s.GolsPro),
                             GolsContra = x.Sum(s => s.GolsContra),
                             GolsSaldo = x.Sum(s => s.GolsSaldo)
-                        })
+                        }).OrderBy( x => x.Posicao)
                         .ToList();
 
                 _message.Info($"Retornaram {result.Count} da pesquisa por time.");
@@ -76,7 +77,7 @@ namespace Campeonato.Service
                          GolsPro = x.Sum(s => s.GolsPro),
                          GolsContra = x.Sum(s => s.GolsContra),
                          GolsSaldo = x.Sum(s => s.GolsSaldo)
-                     })
+                     }).OrderBy(x => x.Posicao)
                      .ToList();
 
                 _message.Info($"Retornaram {result.Count} da pesquisa por time.");

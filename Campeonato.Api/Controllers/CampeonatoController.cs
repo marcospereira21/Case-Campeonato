@@ -20,6 +20,7 @@ namespace Campeonato.Api.Controllers
 
               
         [HttpGet]
+
         [Route("PorTime")]
         public ActionResult GetPorTime( )
         {
